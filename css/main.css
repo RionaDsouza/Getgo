@@ -104,6 +104,11 @@ input[type=checkbox] {
     font-weight: bold;
     color: #0a7aff;
 }
+.blue-text-small {
+    font-size: 12px;
+    font-weight: bold;
+    color: #0a7aff;
+}
 .info-box {
     padding: 0;
 }
@@ -153,6 +158,11 @@ th {
     color: #000;
     font-weight: bold;
 }
+.bold-text-small {
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+} 
 .dropdown .button-right {
     padding: 12px;  
     border-radius: 4px;
