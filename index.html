@@ -215,7 +215,7 @@
                                 <img src="images/message.svg" alt="">
                                 <div class="small-text">SMS</div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-2" onclick="openEmail()">
                                 <img src="images/mail.svg" alt="">
                                 <div class="small-text">Email</div>
                             </div>
@@ -697,7 +697,7 @@
 
 
         <div id="mySidenav" class="sidenav">            
-            <div class="sidenav-head">Call Record(3)<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></div>
+            <div class="sidenav-head">Call Record(3)<a href="#" class="closebtn" onclick="closeNav()">&times;</a></div>
             
             <div class="normal-text" style="clear: both;">16 May 2021<hr class="half"></div>
             <div>
@@ -716,7 +716,7 @@
         </div>
 
         <div id="SMSnav" class="sidenav SMSnav">            
-            <div class="sidenav-head">SMS Record(2)<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></div>
+            <div class="sidenav-head">SMS Record(2)<a href="#" class="closebtn" onclick="closeSMS()">&times;</a></div>
             <div class="normal-text" style="clear: both;">15 May 2021<hr class="half"></div>
 
             <div class="sms-box normal-text">
@@ -727,6 +727,12 @@
                 This split view will be divided in two halves.. Left panel & right panel.. 
                 The left panel will have a menu in itself.. and when one clicks onany item or sub-item in the menu.. the info will show up on the right hand side panel
             </div>
+        </div>
+
+        <div id="Emailnav" class="sidenav Emailnav">            
+            <div class="sidenav-head">Email(2)<a href="#" class="closebtn" onclick="closeEmail()">&times;</a></div>
+            
+
         </div>
     </div>
 
@@ -743,8 +749,15 @@
         function openSMS() {
           document.getElementById("SMSnav").style.display = "block";
         }
-        function closeNav() {
+        function closeSMS() {
           document.getElementById("SMSnav").style.display = "none";
+        }
+
+        function openEmail() {
+          document.getElementById("Emailnav").style.display = "block";
+        }
+        function closeEmail() {
+          document.getElementById("Emailnav").style.display = "none";
         }
     </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
