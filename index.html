@@ -220,7 +220,7 @@
                                 <div class="small-text">Email</div>
                             </div>
                             <div class="col-md-3">
-                                <img src="images/group-29.svg" alt="">
+                                <img src="images/group-29.svg" alt="" onclick="openwa()">
                                 <div class="small-text">Whatsapp</div>
                             </div>
                             <div class="col-md-3">
@@ -301,11 +301,11 @@
                                 <div class="small-text">SMS</div>
                             </div>
                             <div class="col-md-2">
-                                <img src="images/mail.svg" alt="">
+                                <img src="images/mail.svg" alt="" onclick="openEmail()">
                                 <div class="small-text">Email</div>
                             </div>
                             <div class="col-md-3">
-                                <img src="images/group-29.svg" alt="">
+                                <img src="images/group-29.svg" alt="" onclick="openwa()">
                                 <div class="small-text">Whatsapp</div>
                             </div>
                             <div class="col-md-3">
@@ -386,11 +386,11 @@
                                 <div class="small-text">SMS</div>
                             </div>
                             <div class="col-md-2">
-                                <img src="images/mail.svg" alt="">
+                                <img src="images/mail.svg" alt="" onclick="openEmail()">
                                 <div class="small-text">Email</div>
                             </div>
                             <div class="col-md-3">
-                                <img src="images/group-29.svg" alt="">
+                                <img src="images/group-29.svg" alt="" onclick="openwa()">
                                 <div class="small-text">Whatsapp</div>
                             </div>
                             <div class="col-md-3">
@@ -856,8 +856,61 @@
                         accompanied by English versions from the 1914 translation by H. Rackham.
                     </div>
                 </div>
+            
+        </div>
+
+        <div id="wanav" class="sidenav wanav">            
+            <div class="sidenav-head">Whatsapp(10)<a href="#" class="closebtn" onclick="closewa()"><img src="images/close.svg" alt=""></a></div>
+            <div class="normal-text" style="clear: both;">16 May 2021<hr class="half"></div>
+            <div class="row">
+                <div class="col-md-10">
+                    <div class="message-left">
+                        <div class="normal-text">
+                            Hi Aakash, this is regarding your TVS Finance EMI which was due on 10th April which you still haven't paid. 
+                        </div>
+                    </div>
+                    <div class="small-text">01:15 pm</div>
+                </div>
+                <div class="col-md-2">
+                    <img src="images/user-alt.svg" alt="">
+                </div>
             </div>
 
+            <div class="row">
+                <div class="col-md-10">
+                    <div class="message-right">
+                        <div class="normal-text">
+                            Hi Vijay, please tell me 
+                        </div>
+                    </div>
+                    <div class="small-text text-right">01:15 pm</div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-10">
+                    <div class="message-left">
+                        <div class="normal-text">
+                            Your account has been passed on to legal. Please let me know by when can we expect the payment.
+                        </div>
+                    </div>
+                    <div class="small-text">01:15 pm</div>
+                </div>
+                <div class="col-md-2">
+                    <img src="images/user-alt.svg" alt="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-10">
+                    <div class="message-right">
+                        <div class="normal-text">
+                            I will make the payment by tomorrow & will share the payment receipt
+                        </div>
+                    </div>
+                    <div class="small-text text-right">01:15 pm</div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -897,9 +950,13 @@
             document.getElementById("Emaildetnav").style.display = "none";
             document.getElementById("Emailnav").style.display = "block";
         }
-        // function closedetEmail() {
-        //   document.getElementById("Emaildetnav").style.display = "none";
-        // }
+
+        function openwa() {
+            document.getElementById("wanav").style.display = "block";
+        }
+        function closewa() {
+          document.getElementById("wanav").style.display = "none";
+        }
     </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
