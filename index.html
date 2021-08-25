@@ -146,7 +146,7 @@
                     </div>
                 </div>
                 <hr>
-                <div class="row mt-4 mb-4 p-2">
+                <div class="row mt-4 mb-4">
                     <div class="col-md-1"><input class="mx-0" type="checkbox" id="exampleCheck1"></div>
                     
                     <div class="col-md-4 info-box">
@@ -224,7 +224,7 @@
                                 <div class="small-text">Whatsapp</div>
                             </div>
                             <div class="col-md-3">
-                                <img src="images/telemarketer.svg" alt="">
+                                <img src="images/telemarketer.svg" alt="" onclick="opendis()">
                                 <div class="small-text">Dispositions</div>
                             </div>
                         </div>
@@ -309,7 +309,7 @@
                                 <div class="small-text">Whatsapp</div>
                             </div>
                             <div class="col-md-3">
-                                <img src="images/telemarketer.svg" alt="">
+                                <img src="images/telemarketer.svg" alt="" onclick="opendis()">
                                 <div class="small-text">Dispositions</div>
                             </div>
                         </div>
@@ -394,7 +394,7 @@
                                 <div class="small-text">Whatsapp</div>
                             </div>
                             <div class="col-md-3">
-                                <img src="images/telemarketer.svg" alt="">
+                                <img src="images/telemarketer.svg" alt="" onclick="opendis()">
                                 <div class="small-text">Dispositions</div>
                             </div>
                         </div>
@@ -912,6 +912,12 @@
                 </div>
             </div>
         </div>
+
+        <div id="disnav" class="sidenav disnav">            
+            <div class="sidenav-head">Disposition(2)<a href="#" class="closebtn" onclick="closedis()"><img src="images/close.svg" alt=""></a></div>
+            <div class="normal-text" style="clear: both;">15 May 2021<hr class="half"></div>
+
+        </div>
     </div>
 
 
@@ -956,6 +962,13 @@
         }
         function closewa() {
           document.getElementById("wanav").style.display = "none";
+        }
+
+        function opendis() {
+            document.getElementById("disnav").style.display = "block";
+        }
+        function closedis() {
+          document.getElementById("disnav").style.display = "none";
         }
     </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
