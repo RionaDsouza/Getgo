@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>GetGo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="images/files.svg" alt="">
+            Medius
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="images/customer-service.svg" alt=""> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <span class="">
+                        <a class="nav-link big-text" href="#">Accounts<span class="sr-only">(current)</span></a>
+                    </span>
+                </li>
+                <li class="nav-item">
+                    <span class="small-text">Total Results - 3422</span>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="images/customer-service.svg" alt=""> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="images/customer-service.svg" alt=""> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="images/customer-service.svg" alt=""> <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 left">
+                <div class="accordion accordion-flush" id="accordionExample">
+                    <div class="accordion-header">
+                        <div class="left-row">
+                            <span class="left-icon"><img src="images/user-alt.svg" alt="" height="19px"></span><span class="left-text">Dashboard</span>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header left-row" id="headingOne">
+                            <button class="accordion-button left-row" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <span class="left-icon"><img src="images/user-alt.svg" alt="" height="19px"></span><span class="left-text">Collection</span>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="left-row"><span class="left-icon"><img src="images/files.svg" alt="" height="19px"></span><span class="left-text">Batch</span></div>
+                                <div class="left-row"><span class="left-icon"><img src="images/user-alt.svg" alt="" height="19px"></span><span class="left-text">Accounts</span></div>
+                                <div class="left-row"><span class="left-icon"><img src="images/pillow-chart-1.svg" alt="" height="19px"></span><span class="left-text">Daily Report</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header left-row" id="headingTwo">
+                            <button class="accordion-button collapsed left-row" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <span class="left-icon"><img src="images/user-alt.svg" alt="" height="19px"></span><span class="left-text">Pre litigation</span>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="left-row"><span class="left-icon"></span><img src="images/user-alt.svg" alt="" height="19px"></span><span class="left-text">Legal Notices</span></div>
+                                <div class="left-row"><span class="left-icon"></span><img src="images/user-alt.svg" alt="" height="19px"></span><span class="left-text">FIR</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-header">
+                        <div class="left-row">
+                            <span class="left-icon"><img src="images/files.svg" alt="" height="19px"></span><span class="left-text">Litigation</span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="accordion-header">
+                        <div class="left-row">
+                            <span class="left-icon"><img src="images/user-alt.svg" alt="" height="19px"></span><span class="left-text">Communication</span>
+                        </div>
+                    </div>
+                    <div class="accordion-header">
+                        <div class="left-row">
+                            <span class="left-icon"><img src="images/user-alt.svg" alt="" height="19px"></span><span class="left-text">Super-Admin</span>
+                        </div>
+                    </div>
+                    <div class="accordion-header">
+                        <div class="left-row">
+                            <span class="left-icon"><img src="images/users.svg" alt="" height="19px"></span><span class="left-text">Users and Roles</span>
+                        </div>
+                    </div>
+                    <div class="accordion-header">
+                        <div class="left-row">
+                            <span class="left-icon"><img src="images/pie-chart-alt.svg" alt="" height="19px"></span><span class="left-text">Account</span>
+                        </div>
+                    </div>
+                    <div class="accordion-header">
+                        <div class="left-row">
+                            <span class="left-icon"><img src="images/news.svg" alt="" height="19px"></span><span class="left-text">Invoices</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <div class="row row-top">
+                    <div class="col-md-9 px-0">
+                        <input type="checkbox" id="exampleCheck1">
+                        <button type="button" class="btn btn-top" data-bs-toggle="modal" data-bs-target="#filterModal"><img src="images/equalizer.svg" alt="" height="20px"> Filter</button>
+                        <button type="button" class="btn btn-top"><img src="images/equalizer.svg" alt="" height="20px"> Sort</button>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle right-button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select
+                            </button>
+                            <div class="dropdown-menu right-dropdown" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#"><div><span class="dropdown-icon"><img src="images/download.svg" alt="" width="19px"></span><span class="black-text">Download</span></div></a>
+                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#legalModal"><div><span class="dropdown-icon"><img src="images/01-fragments-icons-32-px-file-plus-dark.svg" alt="" width="19px"></span><span class="black-text">Issue Legal Notice</span></div></a>
+                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#communicateModal"><div><span class="dropdown-icon"><img src="images/01-fragments-icons-32-px-comment-dark.svg" alt="" width="19px"></span><span class="black-text">Communicate</span></div></a>
+                                <a class="dropdown-item" href="#"><div><span class="dropdown-icon"><img src="images/stacks.svg" alt="" width="19px"></span><span class="black-text">File FIR</span></div></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row mt-4 mb-4 p-2">
+                    <div class="col-md-1"><input class="mx-0" type="checkbox" id="exampleCheck1"></div>
+                    
+                    <div class="col-md-4 info-box">
+                        <span class="blue-text">
+                            Ritu Raj Srivastava (124516716)
+                        </span>
+                        <div class="normal-text">Batch No. - <span class="black-text">5</span></div>
+                        <hr class="half">
+                        <p>Product -  <span class="black-text">Tractor</span>
+                            <div class="black-text">Rs. 45,1671</div>
+                            <div class="black-text">180+ Days</div>
+                        </p>
+                        <hr class="half">
+                        <div class="status">
+                            Current Status -  <span class="red-text">High Risk</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="table-responsive">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th scope="col" colspan="2">
+                                            <div class="small-text">Last  Disposition</div>
+                                            <div class="bold-text">Broken Promise to pay</div>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Assigned Date</td>
+                                        <td>10th Jan 2021</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1st Called Date</td>
+                                        <td>11th Jan 2021</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Last Disposition</td>
+                                        <td>28th May 2021</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="normal-text">Action</div>
+                        <div class="dropdown">
+                            <button class="btn button-right dropdown-toggle mb-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="small-text">Select</span>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="normal-text mt-3">View History</div>
+                        <div class="row row-right">
+                            <div class="col-md-2" onclick="openNav()">
+                                <img src="images/phone.svg" alt="">
+                                <div class="small-text">Call</div>
+                            </div>
+                            <div class="col-md-2" onclick="openSMS()">
+                                <img src="images/message.svg" alt="">
+                                <div class="small-text">SMS</div>
+                            </div>
+                            <div class="col-md-2">
+                                <img src="images/mail.svg" alt="">
+                                <div class="small-text">Email</div>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="images/group-29.svg" alt="">
+                                <div class="small-text">Whatsapp</div>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="images/telemarketer.svg" alt="">
+                                <div class="small-text">Dispositions</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row mt-4 mb-4 p-2">
+                    <div class="col-md-1"><input class="mx-0" type="checkbox" id="exampleCheck1"></div>
+                    
+                    <div class="col-md-4 info-box">
+                        <span class="blue-text">
+                            Ritu Raj Srivastava (124516716)
+                        </span>
+                        <div class="normal-text">Batch No. - <span class="black-text">5</span></div>
+                        <hr class="half">
+                        <p>Product -  <span class="black-text">Tractor</span>
+                            <div class="black-text">Rs. 45,1671</div>
+                            <div class="black-text">180+ Days</div>
+                        </p>
+                        <hr class="half">
+                        <div class="status">
+                            Current Status -  <span class="orange-text">Medium Risk</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="table-responsive">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th scope="col" colspan="2">
+                                            <div class="small-text">Last  Disposition</div>
+                                            <div class="bold-text">Broken Promise to pay</div>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Assigned Date</td>
+                                        <td>10th Jan 2021</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1st Called Date</td>
+                                        <td>11th Jan 2021</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Last Disposition</td>
+                                        <td>28th May 2021</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="normal-text">Action</div>
+                        <div class="dropdown">
+                            <button class="btn button-right dropdown-toggle mb-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="small-text">Select</span>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="normal-text mt-3">View History</div>
+                        <div class="row row-right">
+                            <div class="col-md-2" onclick="openNav()">
+                                <img src="images/phone.svg" alt="">
+                                <div class="small-text">Call</div>
+                            </div>
+                            <div class="col-md-2" onclick="openSMS()">
+                                <img src="images/message.svg" alt="">
+                                <div class="small-text">SMS</div>
+                            </div>
+                            <div class="col-md-2">
+                                <img src="images/mail.svg" alt="">
+                                <div class="small-text">Email</div>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="images/group-29.svg" alt="">
+                                <div class="small-text">Whatsapp</div>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="images/telemarketer.svg" alt="">
+                                <div class="small-text">Dispositions</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row mt-4 mb-4 p-2">
+                    <div class="col-md-1"><input class="mx-0" type="checkbox" id="exampleCheck1"></div>
+                    
+                    <div class="col-md-4 info-box">
+                        <span class="blue-text">
+                            Ritu Raj Srivastava (124516716)
+                        </span>
+                        <div class="normal-text">Batch No. - <span class="black-text">5</span></div>
+                        <hr class="half">
+                        <p>Product -  <span class="black-text">Tractor</span>
+                            <div class="black-text">Rs. 45,1671</div>
+                            <div class="black-text">180+ Days</div>
+                        </p>
+                        <hr class="half">
+                        <div class="status">
+                            Current Status -  <span class="green-text">Low Risk</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="table-responsive">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th scope="col" colspan="2">
+                                            <div class="small-text">Last  Disposition</div>
+                                            <div class="bold-text">Broken Promise to pay</div>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Assigned Date</td>
+                                        <td>10th Jan 2021</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1st Called Date</td>
+                                        <td>11th Jan 2021</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Last Disposition</td>
+                                        <td>28th May 2021</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="normal-text">Action</div>
+                        <div class="dropdown">
+                            <button class="btn button-right dropdown-toggle mb-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="small-text">Select</span>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="normal-text mt-3">View History</div>
+                        <div class="row row-right">
+                            <div class="col-md-2" onclick="openNav()">
+                                <img src="images/phone.svg" alt="">
+                                <div class="small-text">Call</div>
+                            </div>
+                            <div class="col-md-2" onclick="openSMS()">
+                                <img src="images/message.svg" alt="">
+                                <div class="small-text">SMS</div>
+                            </div>
+                            <div class="col-md-2">
+                                <img src="images/mail.svg" alt="">
+                                <div class="small-text">Email</div>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="images/group-29.svg" alt="">
+                                <div class="small-text">Whatsapp</div>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="images/telemarketer.svg" alt="">
+                                <div class="small-text">Dispositions</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="filterModal" tabindex="-1" aria-labelledby="filterModalLabel" aria-hidden="true">
+            <div class="modal-dialog mt-0">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title bold-text-modal" id="filterModalLabel">Filter</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="form">
+                        <input class="form-control" type="search" placeholder="Search by keywords" aria-label="Search">
+                        <div class="dark-bg-modal">
+                            <div class="row p-2">
+                                <div class="col-md-5">
+                                    <div class="modal-text">Search by Batch Number</div>
+                                </div>
+                                <div class="col-md-7 modal-input">
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="row p-2">
+                                <div class="col-md-5">
+                                    <div class="modal-text">Product/ Portfolio</div>
+                                </div>
+                                <div class="col-md-7 modal-input">
+                                    <select class="form-control  form-control-sm">
+                                        <option>Select</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row p-2">
+                                <div class="col-md-5">
+                                    <div class="modal-text">Overdue Bucket</div>
+                                </div>
+                                <div class="col-md-7 modal-input">
+                                    <select class="form-control  form-control-sm">
+                                        <option>Select</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row p-2">
+                            <div class="col-md-5">
+                                <div class="modal-text">Last Disposition</div>
+                            </div>
+                            <div class="col-md-7 modal-input">
+                                <select class="form-control  form-control-sm">
+                                    <option>Select</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row p-2">
+                            <div class="col-md-5">
+                                <div class="modal-text">Loan Range Account</div>
+                            </div>
+                            <div class="col-md-7 modal-input">
+                                <input type="text" placeholder="From">
+                                <input type="text" placeholder="To">
+                            </div>
+                        </div>
+                        <div class="row p-2">
+                            <div class="col-md-5">
+                                <div class="modal-text">Status</div>
+                            </div>
+                            <div class="col-md-7 modal-input">
+                                <select class="form-control  form-control-sm">
+                                    <option>Select</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="dark-bg-modal">
+                            <div class="modal-text">Search by Date</div>
+                            <div class="row p-2">
+                                <div class="col-md-5">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                                        <label class="form-check-label">
+                                            Date between
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-7 modal-input">
+                                    <input type="text" placeholder="From">
+                                    <input type="text" placeholder="To">
+                                </div>
+                            </div>
+                            <div class="row p-2">
+                                <div class="col-md-5">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                        <label class="form-check-label">
+                                            Specific Date
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-7 modal-input">
+                                    <select class="form-control  form-control-sm">
+                                        <option>Select</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>                    
+                    </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn modal-button1" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn modal-button2">Apply</button>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="legalModal" tabindex="-1" aria-labelledby="legalModalLabel" aria-hidden="true">
+            <div class="modal-dialog mt-0">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title bold-text-modal" id="legalModalLabel">Issue Legal Notice</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="form text-center">
+                        <div class="legal">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                                <label class="form-check-label">
+                                    Attribution Notice
+                                </label>
+                            </div>  
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                <label class="form-check-label">
+                                    Loan Recall Notice
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                                <label class="form-check-label">
+                                    Demand Notice
+                                </label>
+                            </div>  
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                                <label class="form-check-label">
+                                    138 Notice
+                                </label>
+                            </div> 
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                                <label class="form-check-label">
+                                    Sarfaesi/13(2) Notice
+                                </label>
+                            </div>
+                        </div>                 
+                    </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn modal-button1" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn modal-button2">Send</button>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="communicateModal" tabindex="-1" aria-labelledby="communicateModalLabel" aria-hidden="true">
+            <div class="modal-dialog mt-0">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title bold-text-modal" id="communicateModalLabel">Communicate</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4 dark-bg-modal">
+                            <div class="p-3" style="background-color: #fff;">
+                                <img src="images/phone.svg" alt="">
+                                <span class="semi-text">Call</span>
+                            </div>
+                            <div class="p-3" data-bs-toggle="modal" data-bs-target="#SMSModal">
+                                <img src="images/phone.svg" alt="">
+                                <span class="semi-text">SMS</span>
+                            </div>
+                            <div class="p-3">
+                                <img src="images/phone.svg" alt="">
+                                <span class="semi-text">Email</span>
+                            </div>
+                            <div class="p-3">
+                                <img src="images/phone.svg" alt="">
+                                <span class="semi-text">Whatsapp</span>
+                            </div>
+                            <div class="p-3">
+                                <img src="images/phone.svg" alt="">
+                                <span class="semi-text">Agent</span>
+                            </div>
+                        </div>
+                        <div class="col-md-8 modal-input">
+                            <div class="m-3">
+                                <div class="normal-text text-left">
+                                    Agent
+                                </div>
+                                <select class="form-control m-1">
+                                    <option>Select</option>
+                                </select>
+                            </div>
+                            <div class="m-3">
+                                <div class="normal-text text-left">
+                                    Contact Number
+                                </div>
+                                <select class="form-control m-1">
+                                    <option>Select</option>
+                                </select>
+                            </div>
+                            <div class="m-3 details">
+                                <input type="text" value="Home - +91 9876543210 
+                                Landline - 022-234567">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn modal-button1" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn modal-button2">Call</button>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="SMSModal" tabindex="-1" aria-labelledby="SMSModalLabel" aria-hidden="true">
+            <div class="modal-dialog mt-0">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title bold-text-modal" id="SMSModalLabel">Communicate</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4 dark-bg-modal">
+                            <div class="p-3" data-bs-toggle="modal" data-bs-target="#communicateModal">
+                                <img src="images/phone.svg" alt="">
+                                <span class="semi-text">Call</span>
+                            </div>                       
+                            <div class="p-3" style="background-color: #fff;" data-bs-toggle="modal" data-bs-target="#SMSModal">
+                                <img src="images/phone.svg" alt="">
+                                <span class="semi-text">SMS</span>
+                            </div>
+                            <div class="p-3">
+                                <img src="images/phone.svg" alt="">
+                                <span class="semi-text">Email</span>
+                            </div>
+                            <div class="p-3">
+                                <img src="images/phone.svg" alt="">
+                                <span class="semi-text">Whatsapp</span>
+                            </div>
+                            <div class="p-3">
+                                <img src="images/phone.svg" alt="">
+                                <span class="semi-text">Agent</span>
+                            </div>
+                        </div>
+                        <div class="col-md-8 modal-input">
+                            <div class="m-3">
+                                <div class="normal-text text-left">
+                                    Agent
+                                </div>
+                                <select class="form-control m-1">
+                                    <option>Select</option>
+                                </select>
+                            </div>
+                            <div class="m-3">
+                                <div class="normal-text text-left">
+                                    Contact Number
+                                </div>
+                                <select class="form-control m-1">
+                                    <option>Select</option>
+                                </select>
+                            </div>
+                            <div class="m-3 write-text">
+                                <div class="normal-text text-left">
+                                    Write text
+                                </div>
+                                <input type="text" placeholder="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn modal-button1" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn modal-button2">Send</button>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="mySidenav" class="sidenav">            
+            <div class="sidenav-head">Call Record(3)<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></div>
+            
+            <div class="normal-text" style="clear: both;">16 May 2021<hr class="half"></div>
+            <div>
+                <img src="images/play-button_2.svg" alt="" style="float: left;">
+                <img src="images/record-progress-bar_2.svg" alt="" style="float: right;" width="80%">
+            </div>
+            <div class="mt-3">
+                <img src="images/play-button_3.svg" alt="" style="float: left; clear: left;">
+                <img src="images/record-progress-bar_3.svg" alt="" style="float: right;" width="80%">
+            </div>
+            <div class="normal-text" style="clear: both;">15 May 2021<hr class="half"></div>
+            <div>
+                <img src="images/play-button.svg" alt="" style="float: left;">
+                <img src="images/record-progress-bar.svg" alt="" style="float: right;" width="80%">
+            </div>
+        </div>
+
+        <div id="SMSnav" class="sidenav SMSnav">            
+            <div class="sidenav-head">SMS Record(2)<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></div>
+            <div class="normal-text" style="clear: both;">15 May 2021<hr class="half"></div>
+
+            <div class="sms-box normal-text">
+                This split view will be divided in two halves.. Left panel & right panel.. 
+                The left panel will have a menu in itself.. and when one clicks onany item or sub-item in the menu.. the info will show up on the right hand side panel
+            </div>
+            <div class="sms-box normal-text mt-3">
+                This split view will be divided in two halves.. Left panel & right panel.. 
+                The left panel will have a menu in itself.. and when one clicks onany item or sub-item in the menu.. the info will show up on the right hand side panel
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.display = "block";
+        }
+        function closeNav() {
+          document.getElementById("mySidenav").style.display = "none";
+        }
+
+        function openSMS() {
+          document.getElementById("SMSnav").style.display = "block";
+        }
+        function closeNav() {
+          document.getElementById("SMSnav").style.display = "none";
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

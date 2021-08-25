@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="39" viewBox="0 0 39 39">
+    <defs>
+        <linearGradient id="m56sta53sc" x1="100%" x2="0%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#6A11CB"/>
+            <stop offset="100%" stop-color="#2575FC"/>
+        </linearGradient>
+        <linearGradient id="qfoh0i90ud" x1="79.586%" x2="20.414%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#6A11CB"/>
+            <stop offset="100%" stop-color="#2575FC"/>
+        </linearGradient>
+        <filter id="lz62ys4ska" width="113.6%" height="113.6%" x="-6.8%" y="-3.9%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".375" result="shadowSpreadOuter1"/>
+            <feOffset dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.443137255 0 0 0 0 0.207843137 0 0 0 0 0.819607843 0 0 0 0.4 0"/>
+        </filter>
+        <circle id="papsbboh4b" cx="17.5" cy="17.5" r="17.5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g opacity=".2" transform="translate(-1109.000000, -315.000000) translate(1095.000000, 0.000000) translate(16.000000, 306.000000) translate(0.000000, 10.000000)">
+                            <use fill="#000" filter="url(#lz62ys4ska)" xlink:href="#papsbboh4b"/>
+                            <use fill="#F7F7F7" stroke="url(#m56sta53sc)" stroke-width=".75" xlink:href="#papsbboh4b"/>
+                        </g>
+                        <path fill="url(#qfoh0i90ud)" d="M.633.072L9.81 6.16c.03.019.075.053.116.108.023.033.078.12.075.243-.001.026-.006.117-.068.21-.042.063-.092.1-.123.12L.62 12.937c-.023.015-.057.033-.1.046-.047.015-.088.017-.117.017-.039 0-.137-.006-.233-.074-.132-.093-.161-.233-.167-.264-.005-.038-.01-.118.028-.21.045-.105.121-.163.153-.184l8.693-5.77L.803 1.143v9.541c0 .219-.18.399-.4.4-.22 0-.4-.181-.4-.4V.4c0-.037.005-.149.086-.25C.204.005.378 0 .403 0 .434 0 .48.003.532.021.576.036.61.056.633.072" transform="translate(-1109.000000, -315.000000) translate(1095.000000, 0.000000) translate(16.000000, 306.000000) translate(0.000000, 10.000000) translate(14.000000, 11.000000)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="39" viewBox="0 0 40 39">
+    <defs>
+        <linearGradient id="l9ed9tn6oc" x1="16.8%" x2="100%" y1="97.261%" y2="2.739%">
+            <stop offset="0%" stop-color="#F83600"/>
+            <stop offset="100%" stop-color="#F7932D"/>
+        </linearGradient>
+        <linearGradient id="ccqsm1qudd" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#F83600"/>
+            <stop offset="100%" stop-color="#F7932D"/>
+        </linearGradient>
+        <ellipse id="bzf3hwkn3b" cx="18" cy="17.5" rx="18" ry="17.5"/>
+        <filter id="ktfqnxgria" width="113.2%" height="113.6%" x="-6.6%" y="-3.9%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".375" result="shadowSpreadOuter1"/>
+            <feOffset dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.443137255 0 0 0 0 0.207843137 0 0 0 0 0.819607843 0 0 0 0.4 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g opacity=".2" transform="translate(-1109.000000, -124.000000) translate(1095.000000, 0.000000) translate(16.000000, 115.000000) translate(0.000000, 10.000000)">
+                            <use fill="#000" filter="url(#ktfqnxgria)" xlink:href="#bzf3hwkn3b"/>
+                            <use fill="#F7F7F7" stroke="url(#l9ed9tn6oc)" stroke-width=".75" xlink:href="#bzf3hwkn3b"/>
+                        </g>
+                        <g fill="url(#ccqsm1qudd)" fill-rule="nonzero" transform="translate(-1109.000000, -124.000000) translate(1095.000000, 0.000000) translate(16.000000, 115.000000) translate(0.000000, 10.000000) translate(11.400000, 12.000000)">
+                            <path d="M0 12.28h4.678V0H0v12.28zM.585.586h3.509v11.111H.584V.585zM7.018 0v12.28h4.678V0H7.018zm4.093 11.696H7.602V.585h3.51v11.111z"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
